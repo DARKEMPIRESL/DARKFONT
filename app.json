@@ -1,0 +1,55 @@
+{
+  "name": "DARK FONT",
+  "description": "Telegram bot helps to get Stylish Text. Create your Fork now.",
+  "keywords": [
+    "telegram",
+    "best",
+    "DARK FONT"
+  ],
+  "logo": "https://telegra.ph/file/e96572a0712a13b321599.jpg",
+  "success_url": "https://telegram.dog/SLBotOfficial",
+  "website": "https://github.com/SL-bots",
+  "repository": "https://github.com/DARKEMPIRESL/DARKFONT",
+    
+  "env": {
+    "WEBHOOK": {
+      "description": "Setting this to ANYTHING will enable webhooks when in env mode",
+      "value": "ANYTHING"
+    },
+    "BOT_TOKEN": {
+      "description": "Your bot token, as a string.",
+      "value": ""
+    },
+    "API_ID": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": ""
+    },
+    "OWNER_ID": {
+      "description": "give your telegram user id here",
+      "value": "1120271521"
+    },
+    "API_HASH": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": ""
+    }
+  },
+  "addons": [
+    {
+       "options": {
+          "version": "12"
+       },
+       "plan": "heroku-postgresql"
+    }
+            ], 
+  "buildpacks": [{
+    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+  }, {
+    "url": "heroku/python"
+  }],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}
