@@ -1,16 +1,15 @@
 {
-  "name": "DARK FONT",
-  "description": "Telegram bot helps to get Stylish Text. Create your Fork now.",
+  "name": "DARKFONT",
+  "description": "Telegram bot helps to get DARKFONT. Create your Fork now.",
   "keywords": [
     "telegram",
     "best",
-    "DARK FONT"
+    "DARKFONT"
   ],
   "logo": "https://telegra.ph/file/e96572a0712a13b321599.jpg",
-  "success_url": "https://telegram.dog/SLBotOfficial",
-  "website": "https://github.com/SL-bots",
+  "success_url": "https://t.me/SLBotOfficial",
+  "website": "https://github.com/DARKEMPIRESL/DARKFONT",
   "repository": "https://github.com/DARKEMPIRESL/DARKFONT",
-    
   "env": {
     "WEBHOOK": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode",
@@ -34,13 +33,7 @@
     }
   },
   "addons": [
-    {
-       "options": {
-          "version": "12"
-       },
-       "plan": "heroku-postgresql"
-    }
-            ], 
+  ],
   "buildpacks": [{
     "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
   }, {

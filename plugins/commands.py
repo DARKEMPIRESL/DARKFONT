@@ -19,7 +19,6 @@ async def start(c, m):
  
  Devoloper : [𝕯𝖆𝖗𝖐 𝕰𝖒𝖕𝖎𝖗𝖊](https://t.me/ImDark_Empire)
  Powered by :[Team SL Bots🇱🇰](https://t.me/SLBotOfficial)
-
 """
 
     # Buttons
